@@ -8,14 +8,17 @@ html, body {
 h1 {
   text-align: center;
   color: coral;
+  font-size: 50px;
+  text-decoration: overline;
 }
 
 figcaption {
   text-align: center;
 }
 
-#mainContent {
-  background-color: white
+p {
+  font-size: 1.2ems;
+  text-decoration: none;
 }
 
 #tripOne {
@@ -42,10 +45,6 @@ figcaption {
   text-align: center;
 }
 
-footer {
-  text-align: center;
-  color: black
-}
 
 img {
   display: block;
@@ -66,3 +65,26 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: darkseagreen;
+}
+
+a:active {
+  background-color: coral;
