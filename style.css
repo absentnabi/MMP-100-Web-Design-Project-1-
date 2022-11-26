@@ -1,4 +1,68 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: 'Lato', sans-serif;
+  background-color: ivory;
+}
+
+h1 {
+  text-align: center;
+  color: coral;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#mainContent {
+  background-color: white
+}
+
+#tripOne {
+  margin: auto;
+  width: 50%;
+  border: 3px solid darkseagreen;
+  padding: 35px;
+  text-align: center;
+}
+
+#tripTwo {
+  margin: auto;
+  width: 50%;
+  border: 3px solid coral;
+  padding: 35px;
+  text-align: center;
+}
+
+#tripThree {
+  margin: auto;
+  width: 50%;
+  border: 3px solid darkseagreen;
+  padding: 35px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: black
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px solid black;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: coral; 
+  color: white;
+}
+
+#returnTo {
+  text-align: center;
+  padding: 10px;
 }
